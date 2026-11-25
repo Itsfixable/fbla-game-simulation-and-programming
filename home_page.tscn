@@ -1,9 +1,6 @@
-[gd_scene format=3 uid="uid://bl1n2jslr8w5l"]
-
-[ext_resource type="Script" uid="uid://dv3vucbd70u0s" path="res://homescreen/HomePage.gd" id="1_p4pdq"]
+[gd_scene format=3 uid="uid://bwny2vmaeqqxs"]
 
 [node name="HomePage" type="Node2D" unique_id=1972023191]
-script = ExtResource("1_p4pdq")
 
 [node name="tempBg" type="ColorRect" parent="." unique_id=2065914223]
 offset_left = 2.0

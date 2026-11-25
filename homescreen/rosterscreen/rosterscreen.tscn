@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://kvhain2dsjwi"]
 
-[ext_resource type="Script" uid="uid://b4slijvrhiyof" path="res://home_page/rosterscreen/rosterscreen.gd" id="1_5vxtt"]
+[ext_resource type="Script" uid="uid://b4slijvrhiyof" path="res://homescreen/rosterscreen/rosterscreen.gd" id="1_5vxtt"]
 
 [node name="Rosterscreen" type="Node2D" unique_id=1618935392]
 script = ExtResource("1_5vxtt")
