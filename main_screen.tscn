@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://ctfi5q6hg686"]
+
+[ext_resource type="Script" uid="uid://dlk27ttq4d3mw" path="res://main_screen.gd" id="1_tjn2e"]
+
+[node name="MainScreen" type="Node2D" unique_id=1201322400]
+position = Vector2(6, -9)
+script = ExtResource("1_tjn2e")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=510383720]
+offset_left = -6.0
+offset_top = 9.0
+offset_right = 1149.0
+offset_bottom = 659.0
+
+[node name="NewGame" type="Button" parent="." unique_id=890407030]
+offset_left = 380.0
+offset_top = 313.0
+offset_right = 793.0
+offset_bottom = 416.0
+theme_override_font_sizes/font_size = 50
+text = "Continue"
+
+[node name="ContinueGame" type="Button" parent="." unique_id=669988263]
+offset_left = 394.0
+offset_top = 446.0
+offset_right = 782.0
+offset_bottom = 517.0
+theme_override_font_sizes/font_size = 40
+text = "Start New Game"
+
+[node name="Quit" type="Button" parent="." unique_id=1907538405]
+offset_left = 511.0
+offset_top = 573.0
+offset_right = 665.0
+offset_bottom = 623.0
+theme_override_font_sizes/font_size = 30
+text = "Quit"
+
+[node name="TestButton" type="Button" parent="." unique_id=1706102593]
+offset_left = 462.0
+offset_top = 128.0
+offset_right = 669.0
+offset_bottom = 210.0
+text = "Selection"
+
+[connection signal="pressed" from="NewGame" to="." method="_on_new_game_pressed"]
+[connection signal="pressed" from="ContinueGame" to="." method="_on_continue_game_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="TestButton" to="." method="_on_test_button_pressed"]
