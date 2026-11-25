@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://du21h4yic32m6"]
+[gd_scene format=3 uid="uid://wts4nbcm2cv8"]
 
-[ext_resource type="Script" uid="uid://dn5chxqmnao80" path="res://main_screen.gd" id="1_tjn2e"]
+[ext_resource type="Script" path="res://main_screen.gd" id="1_tjn2e"]
 
-[node name="Main Screen" type="Node2D" unique_id=1201322400]
+[node name="MainScreen" type="Node2D" unique_id=1201322400]
 position = Vector2(6, -9)
 script = ExtResource("1_tjn2e")
 
@@ -12,7 +12,7 @@ offset_top = 9.0
 offset_right = 1149.0
 offset_bottom = 659.0
 
-[node name="New_Game" type="Button" parent="." unique_id=890407030]
+[node name="NewGame" type="Button" parent="." unique_id=890407030]
 offset_left = 380.0
 offset_top = 313.0
 offset_right = 793.0
@@ -20,7 +20,7 @@ offset_bottom = 416.0
 theme_override_font_sizes/font_size = 50
 text = "Continue"
 
-[node name="Continue_Game" type="Button" parent="." unique_id=669988263]
+[node name="ContinueGame" type="Button" parent="." unique_id=669988263]
 offset_left = 394.0
 offset_top = 446.0
 offset_right = 782.0
@@ -36,6 +36,6 @@ offset_bottom = 623.0
 theme_override_font_sizes/font_size = 30
 text = "Quit"
 
-[connection signal="pressed" from="New_Game" to="." method="_on_new_game_pressed"]
-[connection signal="pressed" from="Continue_Game" to="." method="_on_continue_game_pressed"]
+[connection signal="pressed" from="NewGame" to="." method="_on_new_game_pressed"]
+[connection signal="pressed" from="ContinueGame" to="." method="_on_continue_game_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

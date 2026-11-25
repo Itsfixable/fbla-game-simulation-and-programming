@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://rm6ejor8jm3g"]
+
+[ext_resource type="Script" uid="uid://w846fdr85ika" path="res://selectionscreen.gd" id="1_mmw0p"]
+
+[node name="selectionscreen" type="Node2D" unique_id=2047049796]
+script = ExtResource("1_mmw0p")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1490796791]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.4997568, 0.9770804, 0.9904818, 1)
+
+[node name="ItemList" type="ItemList" parent="." unique_id=2030308553]
+offset_right = 40.0
+offset_bottom = 40.0
