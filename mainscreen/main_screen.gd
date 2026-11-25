@@ -12,11 +12,11 @@ func _process(delta: float) -> void:
 
 
 func _on_new_game_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/new_game.tscn")
+	get_tree().change_scene_to_file("res://homescreen/node_2d.tscn")
 
 
 func _on_continue_game_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/continue_game.tscn")
+	get_tree().change_scene_to_file("res://homescreen/node_2d.tscn")
 
 
 func _on_quit_pressed() -> void:
