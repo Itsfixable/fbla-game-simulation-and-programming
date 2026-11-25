@@ -11,13 +11,22 @@ config_version=5
 [application]
 
 config/name="FBLA Game Design"
+run/main_scene="uid://bl1n2jslr8w5l"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameState="*uid://b3axd1y3rr4iq"
 
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="FBLA Game Design"
 
 [physics]
 
