@@ -10,21 +10,23 @@ offset_left = 2.0
 offset_top = 1.0
 offset_right = 1152.0
 offset_bottom = 648.0
-color = Color(1, 0, 1, 1)
+color = Color(0.585062, 0.585062, 0.5850621, 1)
 
 [node name="Roster" type="Button" parent="." unique_id=1500128350]
-offset_left = 243.0
+offset_left = 173.0
 offset_top = 233.0
-offset_right = 338.0
-offset_bottom = 285.0
+offset_right = 381.0
+offset_bottom = 390.0
+theme_override_font_sizes/font_size = 50
 text = "Roster
 "
 
 [node name="TryoutResults" type="Button" parent="." unique_id=1813713192]
-offset_left = 476.0
-offset_top = 250.0
-offset_right = 647.0
-offset_bottom = 299.0
+offset_left = 669.0
+offset_top = 234.0
+offset_right = 963.0
+offset_bottom = 395.0
+theme_override_font_sizes/font_size = 33
 text = "Tryout Results
 "
 
@@ -33,6 +35,8 @@ offset_left = 975.0
 offset_top = 76.0
 offset_right = 1127.0
 offset_bottom = 146.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 39
 text = "Budget: "
 
 [node name="RosterList" type="Label" parent="." unique_id=373337769]

@@ -1,14 +1,22 @@
 [gd_scene format=3 uid="uid://dsanst6tdijas"]
 
-[node name="Trainscreen" type="Node2D" unique_id=1883409836]
+[ext_resource type="Script" uid="uid://j5kk4xdt8asn" path="res://homescreen/rosterscreen/trainscreen/trainscreen.gd" id="1_6ywnb"]
+
+[node name="Trainscreen" type="Control" unique_id=1017681722]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_6ywnb")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1957613659]
+layout_mode = 0
 offset_right = 1152.0
 offset_bottom = 651.0
 
 [node name="FullContainer" type="MarginContainer" parent="." unique_id=1336709618]
-offset_left = 250.0
-offset_top = 66.0
+visible = false
+layout_mode = 0
+offset_left = 221.0
+offset_top = 80.0
 offset_right = 885.0
 offset_bottom = 295.0
 
@@ -17,9 +25,14 @@ layout_mode = 2
 
 [node name="TitleLabel" type="Label" parent="FullContainer/Header" unique_id=1996830478]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "TITLE
+"
 
 [node name="MoneyLabel" type="Label" parent="FullContainer/Header" unique_id=1299606435]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "BUDGET"
 
 [node name="Days" type="HBoxContainer" parent="FullContainer" unique_id=646684864]
 layout_mode = 2
@@ -35,3 +48,49 @@ layout_mode = 2
 
 [node name="ActivityContainer" type="HBoxContainer" parent="FullContainer" unique_id=1856324481]
 layout_mode = 2
+
+[node name="Weights" type="Button" parent="FullContainer/ActivityContainer" unique_id=27491077]
+layout_mode = 2
+
+[node name="Cardio" type="Button" parent="FullContainer/ActivityContainer" unique_id=290263965]
+layout_mode = 2
+
+[node name="Drills" type="Button" parent="FullContainer/ActivityContainer" unique_id=391357106]
+layout_mode = 2
+
+[node name="Rest" type="Button" parent="FullContainer/ActivityContainer" unique_id=1926421048]
+layout_mode = 2
+
+[node name="BottomRow" type="HBoxContainer" parent="FullContainer" unique_id=1153645357]
+layout_mode = 2
+offset_transform_enabled = true
+offset_transform_position = Vector2(0, 300)
+
+[node name="Balanced" type="Button" parent="FullContainer/BottomRow" unique_id=1788432000]
+layout_mode = 2
+text = "Balanced
+"
+
+[node name="Recovery" type="Button" parent="FullContainer/BottomRow" unique_id=462134252]
+layout_mode = 2
+text = "Recovery
+"
+
+[node name="spacing" type="Button" parent="FullContainer/BottomRow" unique_id=993057756]
+layout_mode = 2
+offset_transform_enabled = true
+
+[node name="Confirm" type="Button" parent="FullContainer/BottomRow" unique_id=782113717]
+layout_mode = 2
+text = "Confirm
+"
+
+[node name="Label" type="Label" parent="." unique_id=475975285]
+layout_mode = 0
+offset_left = 210.0
+offset_top = 239.0
+offset_right = 842.0
+offset_bottom = 383.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "*TRAIN PAGE"

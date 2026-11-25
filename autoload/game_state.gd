@@ -5,7 +5,7 @@ var season := 1
 var week := 1
 var budget := 12500
 var roster := []
-
+var training_week := ["rest", "rest", "rest", "rest", "rest", "rest", "rest"]
 var playerList := [
 	make_player("Emma Johnson",    17, 12, 72, 150, 73, 108,  7, "R", "hitter",   88, 62, 74, 66, 40, 82),
 	make_player("Sophia Martinez", 16, 11, 67, 138, 68,  99,  2, "R", "setter",   52, 64, 70, 78, 91, 45),

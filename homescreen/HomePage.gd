@@ -4,6 +4,8 @@ extends Node2D
 func _ready() -> void:
 	# set budget
 	$MoneyLabel.text = "$%d" % GameState.budget
+	#connect roster button
+	$Roster.pressed.connect(_on_Roster_pressed)
 	
 	#set player roster as a label
 	var text := ""
@@ -15,8 +17,9 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-func _on_roster_pressed() -> void:
-	get_tree().change_scene_to_file("res://rosterscreen/rosterscreen.tscn")
+func _on_Roster_pressed() -> void:
+	print("roster clicked")
+	get_tree().change_scene_to_file("res://homescreen/rosterscreen/rosterscreen.tscn")
 
 
 	
