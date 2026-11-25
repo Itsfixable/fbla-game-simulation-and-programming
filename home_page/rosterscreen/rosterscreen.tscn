@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://kvhain2dsjwi"]
+
+[ext_resource type="Script" uid="uid://b4slijvrhiyof" path="res://home_page/rosterscreen/rosterscreen.gd" id="1_5vxtt"]
+
+[node name="Rosterscreen" type="Node2D" unique_id=1618935392]
+script = ExtResource("1_5vxtt")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1092963525]
+offset_right = 1148.0
+offset_bottom = 648.0
+
+[node name="Train" type="Button" parent="." unique_id=1289232801]
+offset_left = 793.0
+offset_top = 532.0
+offset_right = 903.0
+offset_bottom = 602.0
+theme_override_font_sizes/font_size = 36
+text = "Train
+"
+
+[node name="Rehab" type="Button" parent="." unique_id=1580246390]
+offset_left = 338.0
+offset_top = 546.0
+offset_right = 586.0
+offset_bottom = 607.0
+theme_override_font_sizes/font_size = 34
+text = "Rehabilitation"
+
+[node name="Speech" type="Button" parent="." unique_id=1565566918]
+offset_left = 37.0
+offset_top = 536.0
+offset_right = 178.0
+offset_bottom = 618.0
+theme_override_font_sizes/font_size = 32
+text = "Speech"
+
+[node name="MoneyLabel" type="Label" parent="." unique_id=1122707108]
+offset_left = 917.0
+offset_top = 40.0
+offset_right = 1089.0
+offset_bottom = 89.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Budget
+"

@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://dsanst6tdijas"]
+
+[node name="Trainscreen" type="Node2D" unique_id=1883409836]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1957613659]
+offset_right = 1152.0
+offset_bottom = 651.0
+
+[node name="FullContainer" type="MarginContainer" parent="." unique_id=1336709618]
+offset_left = 250.0
+offset_top = 66.0
+offset_right = 885.0
+offset_bottom = 295.0
+
+[node name="Header" type="HBoxContainer" parent="FullContainer" unique_id=1049313227]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="FullContainer/Header" unique_id=1996830478]
+layout_mode = 2
+
+[node name="MoneyLabel" type="Label" parent="FullContainer/Header" unique_id=1299606435]
+layout_mode = 2
+
+[node name="Days" type="HBoxContainer" parent="FullContainer" unique_id=646684864]
+layout_mode = 2
+
+[node name="TeamEnergy" type="HBoxContainer" parent="FullContainer" unique_id=1862028092]
+layout_mode = 2
+
+[node name="WarningLabel" type="Label" parent="FullContainer" unique_id=2028755942]
+layout_mode = 2
+
+[node name="SummaryLabel" type="Label" parent="FullContainer" unique_id=1705564781]
+layout_mode = 2
+
+[node name="ActivityContainer" type="HBoxContainer" parent="FullContainer" unique_id=1856324481]
+layout_mode = 2
